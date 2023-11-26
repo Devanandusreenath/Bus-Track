@@ -1,0 +1,183 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
+</head>
+<body>
+    <header class="bg-info">
+        <div class="row text-white">
+            <div class="col-md-6 col-9 p-3 ps-5">
+              <form action="/pro" method="post">
+              <button type="submit" class="btn bg-info" style="font-size: 25px;"> 
+                <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-person-plus" viewBox="0 0 16 16">
+  <path d="M6 8a3 3 0 1 0 0-6 3 3 0 0 0 0 6zm2-3a2 2 0 1 1-4 0 2 2 0 0 1 4 0zm4 8c0 1-1 1-1 1H1s-1 0-1-1 1-4 6-4 6 3 6 4zm-1-.004c-.001-.246-.154-.986-.832-1.664C9.516 10.68 8.289 10 6 10c-2.29 0-3.516.68-4.168 1.332-.678.678-.83 1.418-.832 1.664h10z"></path>
+  <path fill-rule="evenodd" d="M13.5 5a.5.5 0 0 1 .5.5V7h1.5a.5.5 0 0 1 0 1H14v1.5a.5.5 0 0 1-1 0V8h-1.5a.5.5 0 0 1 0-1H13V5.5a.5.5 0 0 1 .5-.5z"></path>
+</svg>{{x}}
+              </button>
+              </form>
+            </div>
+            <div class="col-md-6 col-3 my-auto">
+                <nav class="navbar navbar-expand-lg navbar-light align-items-center">
+                    
+                    <button class="navbar-toggler ms-auto" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation" >
+                      <span class="navbar-toggler-icon"></span>
+                    </button>
+                  
+                    <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                      <ul class="navbar-nav mr-auto ms-auto">
+                        <li class="nav-item active">
+                          <form action="/succ" method="post">
+                          <button class="nav-link btn btn-primary btn-lg text-white" type="submit">Home <span class="sr-only"></span></button>
+                          </form>
+                        </li>
+                        <li class="nav-item">
+                          <form action="/check" method="post">
+                          <button class="nav-link  text-white btn btn-primary btn-lg" type="submit">SEARCH</button>
+                          </form>
+                        </li>
+                        <li class="nav-item">
+                          <form action="/track" method="post">
+                            <button class="nav-link btn btn-primary btn-lg text-white" type="submit">TRACK</button>
+                          </form>
+                          </li>
+                          <li class="nav-item">
+                            <form action="/contact" method="post">
+                            <button class="nav-link btn btn-primary btn-lg  text-white" type="submit">contact me</button>
+                            </form>
+                          </li>
+                      </ul>
+                     
+                    </div>
+                  </nav>
+            </div>
+        </div>
+    </header>
+    <section>
+      <div id="carouselExampleControls" class="carousel slide" data-bs-ride="carousel">
+  <div class="carousel-inner">
+    <div class="carousel-item active">
+      <img src="https://cityfurnish.com/blog/wp-content/uploads/2023/09/long-shot-back-view-crowd-indian-people-diwali-generative-ai-min-1200x900.jpg" class="d-block w-100" alt="..." style="height: 250px;">
+    </div>
+    <div class="carousel-item">
+      <img src="https://img.traveltriangle.com/blog/wp-content/uploads/2017/12/cover2.jpg" class="d-block w-100" alt="..." style="height: 250px;">
+    </div>
+    <div class="carousel-item">
+      <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQ2Zg1Gr97-FU0YYFBftt6kW_erWsRHng9-KQ&usqp=CAU" class="d-block w-100" alt="..." style="height: 250px;">
+    </div>
+  </div>
+  <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleControls" data-bs-slide="prev">
+    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+    <span class="visually-hidden">Previous</span>
+  </button>
+  <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleControls" data-bs-slide="next">
+    <span class="carousel-control-next-icon" aria-hidden="true"></span>
+    <span class="visually-hidden">Next</span>
+  </button>
+</div>
+    </section>
+    <section>
+      <div class="row my-5">
+      <div class="col-md-6">
+    
+<div
+  class="bg-image card shadow-1-strong"
+  style="background-image: url('https://mdbcdn.b-cdn.net/img/new/slides/003.webp');height: 190px;"
+>
+  <div class="card-body text-white">
+    <h5 class="card-title">CHECK THE BUSES TIME</h5>
+    <p class="card-text">
+      Here you can check the timings of the bus either by entering the stop or entering the boarding and destination.
+    </p>
+    <form action="/check" method="post">
+    <button class="btn btn-outline-light" type="submit">CHECK IT</button>
+    </form>
+  </div>
+</div>
+
+      </div>
+       <div class="col-md-6">
+      
+<div
+  class="bg-image card shadow-1-strong"
+  style="background-image: url('https://mdbcdn.b-cdn.net/img/new/slides/003.webp');height: 190px;"
+>
+  <div class="card-body text-white">
+    <h5 class="card-title">TRACK THE BUS</h5>
+    <p class="card-text">
+      Here you can track the bus by entering the name of the bus.
+    </p>
+    <form action="/track" method="post">
+    <button type="submit" class="btn btn-outline-light">TRACK IT</button>
+    </form>
+  </div>
+</div>
+
+      </div>
+      
+      </div>
+      <div class="row">
+        <div class="col-md-6">
+      
+<div
+  class="bg-image card shadow-1-strong"
+  style="background-image: url('https://mdbcdn.b-cdn.net/img/new/slides/003.webp');height: 190px;"
+>
+  <div class="card-body text-white">
+    <h5 class="card-title">FAVORITES</h5>
+    <p class="card-text">
+      Here you can see your favourites.
+    </p>
+    <form action="/fa" method="post">
+    <button type="submit" class="btn btn-outline-light">SEE IT</button>
+    </form>
+  </div>
+</div>
+
+      </div>
+       <div class="col-md-6">
+      
+<div
+  class="bg-image card shadow-1-strong"
+  style="background-image: url('https://mdbcdn.b-cdn.net/img/new/slides/003.webp');height: 190px;"
+>
+  <div class="card-body text-white">
+    <h5 class="card-title">NOTIFICATIONS</h5>
+    <p class="card-text">
+      Here you can see your notifications.
+    </p>
+    <form action="/not" method="post">
+    <button type="submit" class="btn btn-outline-light">SEE IT</button>
+    </form>
+  </div>
+</div>
+
+      </div>
+      </div>
+       <div class="row">
+        <div class="col-md-6">
+      
+<div
+  class="bg-image card shadow-1-strong"
+  style="background-image: url('https://mdbcdn.b-cdn.net/img/new/slides/003.webp');height: 190px;"
+>
+  <div class="card-body text-white">
+    <h5 class="card-title">FEEDBACK</h5>
+    <p class="card-text">
+      Here you give your feedback.
+    </p>
+    <form action="/feed" method="post">
+    <button type="submit" class="btn btn-outline-light">Lets do it</button>
+    </form>
+  </div>
+</div>
+
+      </div>
+    </section>
+    <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+<script src="https://cdn.jsdelivr.net/npm/popper.js@1.12.9/dist/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@4.0.0/dist/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
+</body>
+</html>
